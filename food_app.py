@@ -19,8 +19,8 @@ st.title(" 📊  Africa food prices - Web App")
 st.markdown("##")
 @st.cache_data
 def load_data():
-    df = pd.read_csv("africa_food_prices.csv")
-  
+    #df = pd.read_csv("africa_food_prices.csv")
+    df = pd.read_csv('https://www.kaggle.com/datasets/jogwums/python-mini-project-2022')
     # dropping columns
     df.drop(columns=['Unnamed: 0','mp_commoditysource','currency_id','country_id',
                  'market_id','state_id','produce_id','pt_id','quantity'],  inplace= True)
