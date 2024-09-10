@@ -11,8 +11,8 @@ import seaborn as sns
 
 # page config
 st.set_page_config(page_title="Africa food prices", layout='wide',initial_sidebar_state='expanded', page_icon='📊')
-with open('style.css') as f:
-    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+#with open('style.css') as f:
+#    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 # Title
 st.title(" 📊  Africa food prices - Web App")
